@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 1200px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+section{
+    background-image: url("img/banner-impresora-personal.jpg");
+}
+header{
+    background:rgb(38, 20, 90);
+    height: 100px;
+    width: 100%; 
+    margin: 0px ;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px dashed black;
+}
+
+nav{
+    background: seashell;
+    height: 50px;
+    border: 1px solid black;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+.clearfix{
+    clear:both
+}
+
+article{
+    color:white;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+article h2{
+    font-size: 25px;
+} 
+
+#content{
+    float: left: ;
+    width: calc(100%-60px);
+    min-height: 480px;
+    background: orange;
+    padding-top: 30px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
